@@ -7,3 +7,10 @@ p{
     font-size: 2em;
     color: #7f4c4c;
 }
+.form-control{
+    max-width: 100%;
+    background: #1c2f2f;
+    color: blanchedalmond;
+    width: 100%;
+    padding: 10px;
+}
