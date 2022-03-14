@@ -1,13 +1,8 @@
-img.standard{
-    max-width: 100%;
-    cursor: default;
-}
-img:hover{
-    transform: unset;
-}
 .headNav{
     background: #4f2f2f;
     overflow: hidden;
+    max-height: 2.5em;
+    float: top;
 }
 .headNav a{
     color: #1c2f2f;

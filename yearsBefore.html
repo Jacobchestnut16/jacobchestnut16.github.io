@@ -4,12 +4,23 @@
     <meta charset="UTF-8">
     <title>Before current year</title>
   <link rel="icon" type="image/x-icon" href="IMG_0757.PNG">
-  <link rel="stylesheet" href="imgm.css">
-  <script src="lightbox-plus-jquery.min.js"></script>
+    <script src="lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="imgm.css">
     <link rel="stylesheet" href="heading.css">
+    <link rel="stylesheet" href="text.css">
 </head>
 <body>
-<img class="standard" src="IMG_0766.png" alt="not in loc">
+<div class="zoom"><img class="standard" src="IMG_0766.png" alt=""></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        $(".zoom img").css({
+            width: (100 + scroll/5) + "%"
+        })
+    })
+</script>
 <div class="headNav">
     <a href="home.html">Home</a>
     <a href="photos.html">Current Projects</a>
@@ -20,15 +31,15 @@
 <div class="row">
     <div class="column">
         <a href="IMG_0757.JPG" data-lightbox="mygallery">
-            <img src="IMG_0757.JPG" alt="not in loc"></a>
+            <img class="grid"  src="IMG_0757.JPG" alt="not in loc"></a>
     </div>
     <div class="column">
         <a href="IMG_6286.jpeg" data-lightbox="mygallery">
-            <img src="IMG_6286.jpeg" alt="not in loc"></a>
+            <img class="grid"  src="IMG_6286.jpeg" alt="not in loc"></a>
     </div>
     <div class="column">
         <a href="IMG_0764.png" data-lightbox="mygallery">
-            <img src="IMG_0764.png" alt="not in loc"></a>
+            <img class="grid"  src="IMG_0764.png" alt="not in loc"></a>
     </div>
 </div>
 
@@ -36,15 +47,15 @@
 <div class="row">
     <div class="column">
         <a href="IMG_0763 2.png" data-lightbox="mygallery">
-            <img src="IMG_0763 2.png" alt="not in loc"></a>
+            <img class="grid"  src="IMG_0763 2.png" alt="not in loc"></a>
     </div>
     <div class="column">
         <a href="IMG_0765.png" data-lightbox="mygallery">
-            <img src="IMG_0765.png" alt="not in loc"></a>
+            <img class="grid"  src="IMG_0765.png" alt="not in loc"></a>
     </div>
     <div class="column">
         <a href="IMG_0580.PNG" data-lightbox="mygallery">
-            <img src="IMG_0580.PNG" alt="not in loc"></a>
+            <img class="grid"  src="IMG_0580.PNG" alt="not in loc"></a>
     </div>
 </div>
 
@@ -52,11 +63,11 @@
 <div class="row">
     <div class="column">
         <a href="IMG_7491.jpeg" data-lightbox="mygallery">
-            <img src="IMG_7491.jpeg" alt="not in loc"></a>
+            <img class="grid"  src="IMG_7491.jpeg" alt="not in loc"></a>
     </div>
     <div class="column">
         <a href="IMG_9422.jpeg" data-lightbox="mygallery">
-            <img src="IMG_9422.jpeg" alt="not in loc"></a>
+            <img class="grid"  src="IMG_9422.jpeg" alt="not in loc"></a>
     </div>
 </div>
 
@@ -65,11 +76,11 @@
 <div class="row">
     <div class="column">
         <a href="IMG_8950.jpeg" data-lightbox="mygallery">
-            <img src="IMG_8950.jpeg" alt="not in loc"></a>
+            <img class="grid"  src="IMG_8950.jpeg" alt="not in loc"></a>
     </div>
     <div class="column">
         <a href="IMG_0576.JPG" data-lightbox="mygallery">
-            <img src="IMG_0576.JPG" alt="not in loc"></a>
+            <img class="grid"  src="IMG_0576.JPG" alt="not in loc"></a>
     </div>
 
 </div>
