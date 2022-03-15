@@ -26,7 +26,7 @@
     <a href="contact.html">Contact</a>
 </div>
 <div class="contact-form">
-    <form id="contact-form" method="post" onsubmit="sendEmail(); reset(); return false;">
+    <form id="contact-form" method="post" action="https://formspree.io/chestnuts.web.portfolio@gmail.com">
         <label>
             <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required>
         </label>
@@ -42,23 +42,8 @@
         <input type="submit" class="form-control">
     </form>
 </div>
-<script src="https://smtpjs.com/v3/smtp.js">
-</script>
-<script>
-    function sendEmail() {
-        Email.send({
-            Host : "smtp.gmail.com",
-            Username : "chestnuts.web.portfolio@gmail.com" ,
-            Password : "Spicyleaf82!",
-            To : 'chestnuts.web.portfolio@gmail.com',
-            From : document.getElementById("email").value,
-            Subject : document.getElementById("name").value,
-            Body : document.getElementById("message").value
-        }).then(
-            message => alert(message)
-        );
-    }
-</script>
+
+
 
 </body>
 </html>
