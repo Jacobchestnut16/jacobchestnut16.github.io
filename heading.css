@@ -3,6 +3,7 @@
     overflow: hidden;
     max-height: 2.5em;
     float: top;
+    position: page;
 }
 .headNav a{
     color: #1c2f2f;
